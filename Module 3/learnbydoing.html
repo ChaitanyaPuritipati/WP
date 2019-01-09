@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+
+	<!-- BOOTSTRAP AND CSS LINKS -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!-- TITLE -->
+
+	<title> LEARN BY DOING </title>
+
+	<!-- STYLING COMES HERE -->
+
+	<style >
+	    body {
+	    	background-color: #fafafa;
+	    }
+	 	#firstpage {
+	 		height: 600px;
+	 		display: flex;
+	 	}
+	 	#titleimg {
+	 		border-radius: 20px;
+	 	}
+	 	#startbutton {
+	 		margin-top:10px;
+	 		
+	 	}
+	 	/*div {
+	 		border: 1px solid black;
+	 	}*/
+	 	.questions {
+	 		border: 1px solid black;
+	 		border-radius: 5px;
+	 		background-color: #51a3f6;
+	 	}
+	 	body {
+	 		background-color: #DDF1FC;
+	 	}
+	</style>
+</head>
+<body>
+
+	<!-- FIRST PAGE -->
+
+	<div id = "mainbody" class = "row" style = " margin-top: 10px;">
+		<div class = "col-lg-3"></div>
+		<div id = "firstpage"class = "col-lg-5">
+			<img id = "titleimg" src = "quiznew.jpg" alt = "quiz" style = "width: 100%;">
+		</div>
+		<div class = "col-lg-3"></div>
+	</div>
+	<div class = "row">
+		<div class = "col-lg-3"></div>
+		<div class = "col-lg-5" style = "display: flex; justify-content: flex-end; padding-right: 25px; margin-bottom: 10px; ">
+		    <button id = "startbutton"type="button" class="btn btn-primary btn-lg btn-warning">START THE TEST</button>
+		</div>
+		<div class = "col-lg-3"></div>
+	</div>
+
+	<!-- AFTER CLICK PAGE	 -->
+
+	<div class="alert alert-primary" role="alert" style = "width: 75%; margin-left: auto;
+	 		margin-right: auto; background-color: #2889cd;">
+	 		<button type="button" class="btn btn-secondary btn-lg" style = "background-color: white; color:#2889cd">Learn by doing</button>
+	</div>
+
+	<div class = "row" style = "width: 75%;margin-left: auto;
+	 		margin-right: auto; border: 2px solid;border-color: #2889cd; padding-top: 12px;  border-radius: 15px;background-color: #1bccf8;">
+	 		<div class = "col-lg-2">
+	 			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style = "margin-bottom: 12px;">
+  					<div class="btn-group-lg  flex-wrap" role="group" aria-label="First group">
+    					<button type="button" class="btn btn-primary questions">1</button>
+    					<button type="button" class="btn btn-secondary questions">2</button>
+  					</div>
+	 			</div>
+	 		</div>
+	 		<div class = "col-lg-8">
+
+	 			<!-- QUESTION ONE -->
+	 			<div class="jumbotron jumbotron-fluid" style = "border-radius: 15px;">
+  					<div class="container">
+  						<div class = "row" style = "margin-bottom: 5px;">
+							<div class = "col-lg-6">
+								<h4 >QUESTION ONE</h4>
+							</div>
+							<div class = "col-lg-6" style = "display: flex; justify-content: flex-end;padding-right: 25px;">
+								<button type="button" class="btn btn-warning" style = "background-color: #f2dede; border-color:black;font-size: 18px; padding-left: 20px;padding-right: 20px;">Hint</button> 
+							</div>	
+						</div>
+    					<div class="alert alert-warning alert-dismissible" role="alert" style = "border-color: black; ">
+  								Recall that we use the term computation to mean "the execution of a sequence of instructions by a computer with the information of solving a given problem". 
+  								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    								<span aria-hidden="true">&times;</span>
+  								</button>
+						</div>
+    					<p class="lead">Each Computer has a built in instructions set that it knows how to execute by design </p>
+    					<div class="radio">
+  							<label><input type="radio" name="optradio" checked>TRUE</label>
+						</div>
+						<div class="radio">
+  							<label><input type="radio" name="optradio">FALSE</label>
+						</div>
+						<div class="alert alert-danger alert-dismissible" role="alert" style = "border-color: red;">
+  								<strong>Incorrect!</strong> Each computer has a set of primitive instructions that is "wired" to execute. We call this instruction set of the computer. 
+  								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    								<span aria-hidden="true">&times;</span>
+  								</button>
+						</div>
+
+  					</div>
+				</div>
+
+				<!-- QUESTION TWO -->
+	 			<div class="jumbotron jumbotron-fluid" style = "border-radius: 15px;">
+  					<div class="container">
+  						<div class = "row" style = "margin-bottom: 5px;">
+							<div class = "col-lg-6">
+								<h4 >QUESTION TWO</h4>
+							</div>
+							<div class = "col-lg-6" style = "display: flex; justify-content: flex-end;padding-right: 25px;">
+								<button type="button" class="btn btn-warning" style = "background-color: #f2dede; border-color:black;font-size: 18px; padding-left: 20px;padding-right: 20px;">Hint</button> 
+							</div>	
+						</div>
+    					<div class="alert alert-warning alert-dismissible" role="alert" style = "border-color: black; ">
+  								 Recall that we said a computer executes the instructions given to it mechanically. 
+  								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    								<span aria-hidden="true">&times;</span>
+  								</button>
+						</div>
+    					<p class="lead">The computer uses intelligence to execute instructions </p>
+    					<div class="radio">
+  							<label><input type="radio" name="optradio" checked>TRUE</label>
+						</div>
+						<div class="radio">
+  							<label><input type="radio" name="optradio">FALSE</label>
+						</div>
+						<div class="alert alert-success alert-dismissible" role="alert" style = "border-color: green;">
+  								<strong>Correct!</strong> A computer executes instructions automatically.its main task is to simplify execute the instructions given to it and remember their results as the computation goes on. the part that may require intelligence is exptressing a corputation in terms of instructions. 
+  								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    								<span aria-hidden="true">&times;</span>
+  								</button>
+						</div>
+
+  					</div>
+				</div>
+
+	 		<!-- FOR BUTTONS -->
+
+	 		<div class = "col-lg-2"></div>
+	 		<div class = "row">
+	 			<div class = "col-lg-9"></div>
+	 			<!-- Resetting this activity -->
+	 			<div class = "col-lg-3" style = "display: flex; justify-content: flex-end; padding-right: 25px; ">
+	 			    <button id = "startbutton"type="button" class="btn btn-primary btn-lg btn-warning" style = "background-color: #FAFAFA; border:none; margin-top: -10px; margin-bottom: 10px;">RESET TEST</button>	
+	 			</div>
+	 		</div>	
+			</div>
+</body>
+</html>
