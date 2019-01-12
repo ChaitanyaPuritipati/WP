@@ -1,0 +1,100 @@
+/*div {
+	border: 1px solid green;
+}*/
+/*body {
+	height: 1000px;
+}*/
+#outerbody {
+	border-bottom: 2px solid green;
+}
+#imgpro {
+	height: 380px;
+}
+.rowimg {
+	/*border-right: 1px solid green;*/
+	border-right: none; 
+	border-top: none;
+	border-left: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*border-bottom: 1px solid green;	*/
+}
+#profileimg {
+	height: 60%;
+	margin: 8%;
+	border: 2px solid;
+	border-radius: 50%;
+	border-color: green;
+}
+#nameid {
+	border-bottom: 2px solid green;
+}
+#heading1 {
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	/*border-right: 1px solid green;*/
+	border-bottom: none;
+	padding-top: 23.5px;
+}
+#heading2 {
+	border-top: none;
+	border-left: none;
+	border-right: 1px solid green;
+	border-bottom: none;
+}
+#profilename {
+	font-weight: bolder;
+	font-size: 30px;
+}
+.downheading {
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bolder;
+	font-size: 20px;
+}
+#pointslist {
+	font-size: 15px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.list1 {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+#listheading {
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+}
+#rightheading {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+#horiline {
+	width: 90%;
+	border-color: green;
+}
+#card1 {
+	margin-bottom: 20px;
+	/*height: 300px;*/
+}
+#card2 {
+	margin-bottom: 10px;
+}
+.card {
+	box-shadow: 0 0 15px black;
+	border: 2px solid green;
+	border-left: none;
+	border-right: none;
+	margin: 10px;
+}
+.card-img-top {
+	border-bottom: 2px solid green;
+	/*border-left: none;*/
+	/*border-right: none;*/
+}
