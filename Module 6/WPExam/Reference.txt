@@ -1,0 +1,7 @@
+https://getbootstrap.com/docs/4.0/components/card/
+https://www.computerhope.com/issues/ch000055.html
+https://www.fourkitchens.com/blog/article/responsive-multi-column-lists-flexbox/
+https://stackoverflow.com/questions/18262972/box-shadow-on-bootstrap-3-container
+https://www.w3schools.com/cssref/playit.asp?filename=playcss_overflow
+https://www.w3schools.com/cssref/pr_pos_overflow.asp
+https://www.w3schools.com/cssref/pr_border-bottom_width.asp
