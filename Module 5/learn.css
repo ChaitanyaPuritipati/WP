@@ -1,0 +1,26 @@
+#navbars {
+	background-color: #7cafd4;
+	min-height: 30px; !important
+	margin-top: 0px; !important
+}
+#mainbackground {
+	background-color: #e2f2fd;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#quesbody {
+	background-color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#learntitle {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #7cafd4;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+}
+/*div {
+	border: 1px solid black;
+}*/
