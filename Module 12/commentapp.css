@@ -1,0 +1,10 @@
+#displaybox {
+	margin-top: 10px;
+	height: 210px;
+}
+#errorbox {
+	display: none;
+}
+#errortext {
+	color: red;
+}
