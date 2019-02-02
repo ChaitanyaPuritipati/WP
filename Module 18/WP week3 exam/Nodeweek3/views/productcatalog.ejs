@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Product Catalog
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/assets/editform.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
+        </nav>
+            <% for(var i = 0; i < items.length; i++) { %>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                            <div class="card  text-center" style="width: 25rem; margin-left: auto; margin-right: auto;">
+                                    <img src="./assets/<%=items[i].image%>" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h3 class="card-text alert alert-dark"><%=items[i].title%></h3>
+                                      <label><span class ="badge badge-warning">Description</span></label>
+                                      <p class = "card-text"><%=items[i].description%></p>
+                                      <label><span class ="badge badge-info">Quantity</span></label>
+                                      <p class = "card-text"><%=items[i].quantity%></p>
+                                    </div>
+                                    <button id = "edit<%=i%>" onclick="formdisplay(<%=i%>)">Edit</button>  
+                                    <form id = "editform<%=i%>" method = "post" style = "display: none;">
+                                            <div class="input-group input-group-sm mb-3">
+                                                    <div class="input-group-prepend">
+                                                      <span class="input-group-text" id="inputGroup-sizing-sm">TITLE</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                            <div class="input-group input-group-sm mb-3">
+                                                    <div class="input-group-prepend">
+                                                      <span class="input-group-text" id="inputGroup-sizing-sm">DESCRIPTION</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                            <div class="input-group input-group-sm mb-3">
+                                                    <div class="input-group-prepend">
+                                                      <span class="input-group-text" id="inputGroup-sizing-sm">Quantity</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary" onclick="updatedetails(<%=i%>)">Submit</button>
+                                    </form>
+                                    <button id = "delete<%=i%>" class = "btn btn-danger">Delete</button>
+                                    
+                            </div>
+                    </div>
+                </div>
+            <% } %>
+    </body>
+</html>
