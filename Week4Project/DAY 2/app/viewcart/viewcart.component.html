@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> SHOPPING CART </title>
+    <!-- To link CSS and JS files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- To display topNav Bar -->
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Navbar</span>
+    </nav>
+    <div class = "container-fluid">
+        <ul class="list-group" style = "margin-bottom: 10px;">
+            <li class="list-group-item" >
+              <div class = "row">
+                <div class = "col-lg-2 col-md-2 col-sm-2">
+                    <img src="assets/1.jpeg" class="card-img-top" alt="..." style = "width: 35%;">
+                </div>
+                <div class = "col-lg-2 col-md-2 col-sm-2" id="item">
+                  <p>SAMSUNG GALAXY A8</p>
+                </div>
+                <div class = "col-lg-2 col-md-2 col-sm-2" id="item">
+                    <p>235</p>
+                </div>
+                <div class = "col-lg-2 col-md-2 col-sm-2" id="item">
+                    <div class = "row">
+                      <div class = "col-lg-3">
+                          <a href="#"><i class="fas fa-minus"></i></a>
+                      </div>
+                      <div class = "col-lg-5">
+                          <input style = "size:10%;"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"  value = 1 style="text-align: center;">
+                      </div>
+                      <div class = "col-lg-3">
+                          <a href="#" onclick = "increasequant()"><i class="fas fa-plus"></i></a>
+                      </div>
+                    </div>   
+                </div>
+                <div class = "col-lg-2 col-md-2 col-sm-2" id="item">
+                  225
+                </div>
+                <div class = "col-lg-2 col-md-2 col-sm-2" id="item">
+                    <button type="button" class="btn btn-outline-danger">Remove</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class = "row">
+            <div class = "col-lg-10"></div>
+            <div class = "col-lg-2">
+                <button style = "float:right;" type="button" class="btn btn-warning">CHECK OUT</button>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
